@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jemg</title>
+    <link rel="shortcut icon" href="imagens/favicon [MConverter.eu].ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <img src="imagens/04112561-3e57-4f60-86fd-6c07e2a17fdf.jpg" alt="logo da escola">
+        </div>
+        <div class="menu-btn">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="jemg.html">Início</a></li>
+                <li class="active"><a href="anabolizante.html">Anabolizante</a></li>
+                <li><a href="doping.html">Doping </a></li>
+                <li><a href="padlet.html">Padlet</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="gallery-title">QrCode do Padlet</div>
+
+    <div class="gallery">
+        <img src="imagens/qrcode.jpg" alt="Padlet">
+    </div>
+    <p>Caso o QrCOde não carregue clique <a href="https://padlet.com/aguidaoliveira1410/anabolizantes-e-doping-nos-esportes-pfm6s2dnmpk18vi6" _blank rel="externo">aqui.</a></p>
+
+
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
